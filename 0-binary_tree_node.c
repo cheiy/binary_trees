@@ -22,6 +22,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	tempnode->n = value;
 	if (parent == NULL)
 	{
+		tempnode->parent = parent;
 		parent = tempnode;
 		currentnode = parent;
 	}
