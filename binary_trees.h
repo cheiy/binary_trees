@@ -1,5 +1,7 @@
-#ifndef _BINARY_TREES_H
-#define _BINARY_TREES_H
+#ifndef _BINARY_TREES_H_
+#define _BINARY_TREES_H_
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * struct binary_tree_s - Binary tree node
  *
@@ -20,7 +22,7 @@ typedef struct binary_tree_s binary_tree_t;
 /*
  * Binary Search Tree
  */
-typedef struct binary_tree;
+typedef struct binary_tree_s binary_tree;
 
 /*
  * AVL Tree
